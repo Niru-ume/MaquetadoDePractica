@@ -1,0 +1,70 @@
+
+
+.cabezera{
+  display: flex;  /* Cabezera en Horizontal */
+  justify-content: space-between;  /* elemntos separados en cada esquina*/
+  padding: 20px;  /* margen de la pagina */
+  height: 180px;  /* header (Cabezera)*/
+  background-color: blueviolet;
+  align-items: center; /* Centra los elementos*/
+}
+
+.logo img{
+  height: 140px;  /* tamaño/altura de la imagen */
+}
+
+.media{
+  display: flex; 
+}
+
+.media a{
+  text-decoration: none; /* Le saca el guion a las letras */
+  color: white;
+  font-size: 20px; /* Tamaño de las Letras*/
+}
+
+nav a{
+  font-weight: 800 /* Tañao de Negrita */
+}
+
+.media a:hover{
+  color: black; /* Al pasar el Cursor cambia de color */
+}
+
+.container{
+  text-align: center;
+}
+
+
+#Inicio{
+  border: 2px solid rgb(180, 10, 200);
+  border-radius: 0.8rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 500px;
+}
+
+#SobreMi{
+  border: 2px solid rgb(180, 10, 200);
+  border-radius: 0.8rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 500px;
+}
+
+#Proyectos{
+  border: 2px solid rgb(180, 10, 200);
+  border-radius: 0.8rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 500px;
+}
+
+#Contacto{
+  border: 2px solid rgb(180, 10, 200);
+  border-radius: 0.8rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 500px;
+}
+
